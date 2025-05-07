@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "useUnknownInCatchVariables": false,
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "noUnusedParameters": false,
+    "esModuleInterop": true
+  },
+  "compileOnSave": true,
+  "include": ["src", "decs.d.ts"],
+  "rules": {
+    "object-curly-spacing": [2, "always"],
+    "quotes": [
+      2,
+      "single",
+      {
+        "allowTemplateLiterals": true
+      }
+    ]
+  }
+}
